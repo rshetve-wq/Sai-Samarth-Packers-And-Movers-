@@ -173,3 +173,4 @@ form.reset();
 }
 
 console.log("Shri Sai Samarth Packers & Movers Website Loaded Successfully.");
+<script src="script.js" defer></script>
