@@ -1,0 +1,16 @@
+{
+  "name": "Shri Sai Samarth Packers & Movers",
+  "short_name": "Sai Samarth",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b5ed7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
