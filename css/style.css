@@ -67,11 +67,11 @@ transition:.3s;
 }
 
 .nav-links a:hover{
-color:#ff7a00;
+color:#c56a00;
 }
 
 .quote-btn{
-background:#ff7a00;
+background:#d35400;
 color:#ffffff;
 padding:12px 24px;
 border-radius:40px;
@@ -113,7 +113,7 @@ max-width:850px;
 
 .hero-content h3{
 font-size:26px;
-color:#ff7a00;
+color:#c56a00;
 margin-bottom:10px;
 }
 
@@ -185,7 +185,7 @@ text-align:center;
 
 .stat-box h2{
 font-size:48px;
-color:#ff7a00;
+color:#c56a00;
 margin-bottom:10px;
 }
 
@@ -281,7 +281,7 @@ box-shadow:0 20px 40px rgba(0,0,0,.15);
 
 .service-card i{
 font-size:55px;
-color:#ff7a00;
+color:#c56a00;
 margin-bottom:20px;
 }
 
@@ -334,7 +334,7 @@ color:#fff;
 
 .why-card i{
 font-size:50px;
-color:#ff7a00;
+color:#c56a00;
 margin-bottom:20px;
 }
 
@@ -371,7 +371,7 @@ width:70px;
 height:70px;
 margin:auto;
 margin-bottom:20px;
-background:#ff7a00;
+background:#d35400;
 color:#ffffff;
 border-radius:50%;
 display:flex;
@@ -481,7 +481,7 @@ font-family:Poppins,sans-serif;
 }
 
 .contact-form button{
-background:#ff7a00;
+background:#d35400;
 color:#ffffff;
 padding:15px 35px;
 border:none;
@@ -544,7 +544,7 @@ transition:.3s;
 }
 
 .social a:hover{
-background:#ff7a00;
+background:#d35400;
 color:#ffffff;
 }
 
