@@ -156,17 +156,44 @@ galleryImages.forEach(img=>{
 });
 
 // Contact Form
-const form=document.querySelector("form");
+const form = document.getElementById("quoteForm");
 
-if(form){
+if (form) {
 
-form.addEventListener("submit",function(e){
+form.addEventListener("submit", function (e) {
 
 e.preventDefault();
 
-alert("Thank you! Your enquiry has been received. Our team will contact you shortly.");
+const button = form.querySelector("button");
+
+button.disabled = true;
+button.innerHTML = "Sending...";
+
+emailjs.sendForm(
+"service_hg84qb8",
+"template_xtykeli",
+this
+)
+.then(function () {
+
+alert("✅ Thank you! Your enquiry has been sent successfully.");
 
 form.reset();
+
+button.disabled = false;
+button.innerHTML = "Get Free Quote";
+
+})
+.catch(function (error) {
+
+console.log(error);
+
+alert("❌ Failed to send enquiry. Please try again.");
+
+button.disabled = false;
+button.innerHTML = "Get Free Quote";
+
+});
 
 });
 
