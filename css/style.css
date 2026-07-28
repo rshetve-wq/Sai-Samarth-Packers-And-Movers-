@@ -85,7 +85,7 @@ background:#0B3D91;
 }
 
 /* Hero */
-/*
+
 .hero{
 height:100vh;
 background:url("../images/truck1.webp") center center/cover no-repeat;
@@ -110,25 +110,25 @@ padding:20px;
 color:#fff;
 max-width:850px;
 }
-*/
+
 .hero-content h3{
 font-size:26px;
 color:#c56a00;
 margin-bottom:10px;
 }
-/*
+
 .hero-content h1{
 font-size:60px;
 font-weight:700;
 margin-bottom:15px;
 }
-*/
+
 .hero-content h2{
 font-size:36px;
 margin-bottom:20px;
 color:#fff;
 }
-/*
+
 .hero-content p{
 font-size:20px;
 margin-bottom:35px;
@@ -154,11 +154,11 @@ transition:.3s;
 background:#0B3D91;
 color:#ffffff;
 }
-*/
+
 .btn-primary:hover{
 background:#084298;
 }
-/*
+
 .btn-secondary{
 background:#25d366;
 color:#fff;
@@ -167,8 +167,8 @@ color:#fff;
 .btn-secondary:hover{
 background:#128c7e;
 }
-*/
-.hero{
+
+.hero-home{
     position:relative;
     height:100vh;
     min-height:650px;
@@ -178,7 +178,7 @@ background:#128c7e;
     justify-content:center;
 }
 
-.hero-video{
+.hero-home video{
     position:absolute;
     top:50%;
     left:50%;
@@ -189,36 +189,36 @@ background:#128c7e;
     z-index:-2;
 }
 
-.hero-overlay{
+.hero-home-overlay{
     position:absolute;
     inset:0;
     background:rgba(0,0,0,.45);
     z-index:-1;
 }
 
-.hero-content{
+.hero-home-content{
     max-width:900px;
     text-align:center;
     color:#fff;
     padding:20px;
 }
 
-.hero-content h1{
+.hero-home-content h1{
     font-size:clamp(2.2rem,5vw,4.5rem);
     font-weight:700;
     margin-bottom:20px;
 }
 
-.hero-content span{
+.hero-home-content span{
     color:#FFD54F;
 }
 
-.hero-content p{
+.hero-home-content p{
     font-size:1.2rem;
     margin-bottom:35px;
 }
 
-.hero-buttons{
+.hero-home-buttons{
     display:flex;
     justify-content:center;
     gap:20px;
@@ -251,19 +251,19 @@ background:#128c7e;
 
 @media(max-width:768px){
 
-.hero{
+.hero-home{
     min-height:90vh;
 }
 
-.hero-content h1{
+.hero-home-content h1{
     font-size:2.2rem;
 }
 
-.hero-content p{
+.hero-home-content p{
     font-size:1rem;
 }
 
-.hero-buttons{
+.hero-home-buttons{
     flex-direction:column;
     align-items:center;
 }
