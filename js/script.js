@@ -30,6 +30,13 @@ window.addEventListener("scroll", () => {
   }
 });
 
+//Video 
+window.addEventListener("load", () => {
+
+document.querySelector(".hero-content").classList.add("show");
+
+});
+
 // Counter Animation
 const counters = document.querySelectorAll(".stat-box h2");
 
