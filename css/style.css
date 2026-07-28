@@ -85,7 +85,7 @@ background:#0B3D91;
 }
 
 /* Hero */
-
+/*
 .hero{
 height:100vh;
 background:url("../images/truck1.webp") center center/cover no-repeat;
@@ -167,7 +167,7 @@ color:#fff;
 .btn-secondary:hover{
 background:#128c7e;
 }
-
+*/
 .hero{
     position:relative;
     height:100vh;
