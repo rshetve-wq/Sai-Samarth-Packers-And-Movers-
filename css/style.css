@@ -76,7 +76,7 @@ color:#ffffff;
 padding:12px 24px;
 border-radius:40px;
 text-decoration:none;
-font-weight:600;
+font-weight:700;
 transition:.3s;
 }
 
@@ -355,7 +355,8 @@ margin-bottom:15px;
 
 .section-title p{
 font-size:20px;
-color:#666;
+color:#1f2937;
+font-weight:700;
 }
 /* ===========================
    SERVICES
